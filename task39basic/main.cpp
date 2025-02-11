@@ -1,6 +1,7 @@
 #include <iostream>
 #include "util.h"
-#define SIZE 20
+#include "logic.h"
+#define SIZE 15
 /*		v.1.0
 		Azarenok Rodion Maximovich, P13024, 05.10.24	*/
 
@@ -8,6 +9,11 @@ int main() {
 	int vector[SIZE];
 	
 	init_random(vector, SIZE, 0, 100);
-	
+	cout << convert_to_string(vector, SIZE) << endl;
+
+	sort(vector, SIZE);
+
+	cout << convert_to_string(vector, SIZE) << endl;
+
 	return 0;
 }
