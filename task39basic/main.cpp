@@ -3,7 +3,7 @@
 #include "logic.h"
 #define SIZE 15
 /*		v.1.0
-		Azarenok Rodion Maximovich, P13024, 05.10.24	*/
+		Azarenok Rodion Maximovich, P13024, 11.02.2025	*/
 
 int main() {
 	int vector[SIZE];
